@@ -1,0 +1,19 @@
+Package: rappl
+Title: Approximate 'POMPDP' Solver Using the 'SARSOP' Algorithm from 'APPL'
+    Library
+Version: 0.0.0.9000
+Authors@R: person('Carl', 'Boettiger', email='cboettig@gmail.com', role = c('aut', 'cre'))
+Description: Approximate 'POMPDP' Solver Using the 'SARSOP' Algorithm from
+    'APPL' Library
+Depends: 
+    R (>= 3.1.2)
+License: file LICENSE
+LazyData: true
+Suggests: 
+    testthat,
+    knitr,
+    covr
+VignetteBuilder: knitr
+RoxygenNote: 5.0.1
+LinkingTo: Rcpp
+Imports: Rcpp

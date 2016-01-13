@@ -1,0 +1,9 @@
+*.o
+*.a
+polgraph
+pomdpconvert
+pomdpeval
+pomdpsim
+pomdpsol
+testControllerTiger
+

@@ -47,6 +47,11 @@
 
 #include <string.h>
 
+//#include <Rcpp.h>
+//using namespace Rcpp;
+
+
+
 using namespace std;
 using namespace momdp;
 
@@ -423,6 +428,10 @@ int MDPSolution(SharedPointer<MOMDP> problem, SolverParams* p)
     alphaPlanePoolSet.writeToFile(outFileName, p->problemName);
     return 0;	
 }
+
+
+
+
 int main(int argc, char **argv) 
 {
 
